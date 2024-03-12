@@ -1,37 +1,37 @@
 public class Operaciones {
     //Atributos
-    int suma;
-    int resta;
-    int multiplicacion;
-    int division;
-    int modulo;
-    
+
     //metodos
     
     
     //metodo de suma
-    public void suma(int numero1, int numero2){
-        suma= numero1+numero2;
+    public int suma(int numero1, int numero2){
+        int suma= numero1+numero2;
+        return suma;
 
         
     }
-        public void resta(int numero1, int numero2){
-            resta= numero1-numero2;
+        public int resta(int numero1, int numero2){
+            int resta= numero1-numero2;
+            return resta;
         
     }
-        public void multiplicacion(int numero1, int numero2){
-            multiplicacion= numero1*numero2;
+        public int multiplicacion(int numero1, int numero2){
+            int multiplicacion= numero1*numero2;
+            return multiplicacion;
         
     }
-        public void division(int numero1, int numero2){
-            division= numero1/numero2;
+        public int division(int numero1, int numero2){
+            int division= numero1/numero2;
+            return division;
         
     }
-    public void modulo(int numero1, int numero2){
-        modulo= numero1%numero2;
+    public int modulo(int numero1, int numero2){
+        int modulo= numero1%numero2;
+        return modulo;
     
 }
-public void mostrarResultados(){
+public void mostrarResultados(int suma, int resta, int multiplicacion, int division, int modulo){
     System.out.println("La suma es: " + suma);
     System.out.println("La resta es: " + resta);
     System.out.println("La multiplicacion es: "+ multiplicacion);
